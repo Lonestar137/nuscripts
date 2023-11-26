@@ -22,6 +22,7 @@ def noteHelpers [] {
   log info $"Installing Note helpers to ($INSTALL_LOCATION)."
   mkdir $INSTALL_LOCATION
   ln -sf $"($env.FILE_PWD)/note_helpers/nf.nu" $"($INSTALL_LOCATION)/nf"
+  ln -sf $"($env.FILE_PWD)/note_helpers/md.nu" $"($INSTALL_LOCATION)/md"
 }
 
 
